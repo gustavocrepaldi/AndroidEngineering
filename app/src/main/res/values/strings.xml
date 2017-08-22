@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AndroidEngineering</string>
+
+
+    <string name="generalconcepts_description">General Concepts is about File System, AndroidManifest, Resources Folder, R Class (Dynamic and Static Assignment), Gradle and LogCat</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="title_main_activity">Login</string>
+    <string name="title_bem_vindo_activity">Bem Vindo</string>
+    <string name="tViewInfo">Usuário: gustavo Senha:Access123</string>
+
+
+    <string name="intent_numero_telefone">Insira o número de telefone</string>
+    <string name="intent_default">981458382</string>
+    <string name="intent_ligar">Realizar Chamada Telefonica</string>
+
+    <string name="notification_text">Clique abaixo para configurar uma Notification</string>
+    <string name="notification_btn">Notification</string>
+
+</resources>

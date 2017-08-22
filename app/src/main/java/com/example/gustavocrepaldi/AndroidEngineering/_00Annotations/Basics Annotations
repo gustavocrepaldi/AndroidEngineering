@@ -1,0 +1,30 @@
+
+
+Atalhos importantes:
+
+Ctrl + Shift + O        -->                         Retira imports desncessários
+Shift + Shift           -->                         Procura por toda parte (Arquivos, classes, etc)
+
+
+
+Debug
+F9                      -->                         Vai até o próximo breakPoint
+F8                      -->                         Linha a linha
+F7                      -->                         StepIn?
+
+
+FORMATAÇÃO DE CÓDIGO
+Ctrl + Alt + L + Seleção de trecho
+
+Ctrl + N                -->                         Procura por classe
+Ctrl + Alt + Back       -->                         Volta navegação
+
+
+COMPILAR E EXECUTAR
+Ctrl + F9               -->                         Compilar
+Shift + F10             -->                         Compilar e Executar
+
+Padrões Gof [Gang of Four]
+
+http://pt.wikipedia.org/wiki/Builder
+http://pt.wikipedia.org/wiki/Design_Patterns

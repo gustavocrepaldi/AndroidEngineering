@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gustavocrepaldi.AndroidEngineering">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        // Para aplicação TOP LEVEL que deve aparecer na tela INICIAL do emulador.
+        // MAIN- Ponto de partida sem depender de outra activity. Esta activity pode ser
+        // iniciada diretamenta pelo IDE. Caso contrário, seria iniciada apenas pelo
+        // método startActivity(intent). É como definir a função public static void
+        // main(String args[]) em uma aplicação Java.
+        //
+        // LAUNCHER- Categoria onde a app será exibida como TopLevel e pode ser executada pelo
+        // usuário na tela inicial. Ao definiar a categoria LAUNCHER é sempre neces
+        // sário definir a action MAIN.
+        <activity android:name="com.example.gustavocrepaldi.AndroidEngineering.MenuGeral">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                //Adicionando categoria DEFAULT e
+                //AndroidEngineering para projeto IntentFilterIntegracao
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="AndroidEngineering" />
+            </intent-filter>
+        </activity>
+
+        // _02GeneralConcepts-----------------------------------------------------------------------
+        <activity android:name="._02GeneralConcepts.GeneralConcepts"></activity>
+
+        // _03Activity -----------------------------------------------------------------------------
+        <activity android:name="._03Activity.MenuActivity"></activity>
+
+        <activity android:name="._03Activity.Activity_MainActivityActivity"></activity>
+
+        <activity android:name="._03Activity.Activity_DebugActivity"></activity>
+
+        <activity android:name="._03Activity.Activity_BemVindoActivityActivity"></activity>
+
+        <activity android:name="._03Activity.ListActivity_ArrayAdapter"></activity>
+
+        <activity android:name="._03Activity.ListActivity_SimpleAdapter"></activity>
+
+        <activity android:name="._03Activity.ListActivity_SimpleAdapter_LayoutCustom"></activity>
+
+        <activity android:name="._03Activity.ListActivity_BaseAdapter_LayoutCustomImage1"></activity>
+
+
+        // _04Intent -------------------------------------------------------------------------------
+        //Activity Menu
+        <activity android:name="._04Intent.MenuIntent"></activity>
+
+        <activity android:name="._04Intent.Intentn_SetResult"></activity>
+
+        <activity android:name="._04Intent.Intent_StartActivityForResult"></activity>
+
+        <activity android:name="._04Intent.Intent_ACTION_CALL_ACTION_DIAL"></activity>
+
+        <activity android:name="._04Intent.Intent_ACTION_VIEW"></activity>
+
+        <activity android:name="._04Intent.Intent_ACTION_VIEW_ContentProvider"></activity>
+
+        <activity android:name="._04Intent.Intent_ACTION_PICK"></activity>
+
+        // _05IntentFilter -------------------------------------------------------------------------
+        //IntentFilter Menu
+        <activity android:name="._05IntentFilter.MenuIntentFilter"></activity>
+
+        /*
+        * Ação e Categoria servem para identificar a Intent.
+        *
+        * É necessário definir no mínimo uma categoria para que o IntentFilter. Se nenhuma categoria
+        * é definida ao criar a intent, o sistema por padrão atribui a categoria DEFAULT. Por este
+        * motivo a categoria Default deve ser implementado no IntentFilter para que a mensagem seja
+        * interceptada pelo filtro.
+        *
+        * Definir uma ação é uma forma excelente de fazer com que aplicações em processos diferentes
+        * se comuniquem. Ações do sistema operacional como, por exemplo, ACTION_PICK, ACTION_VIEW,
+        * ACTION_EDIT, ACTION_CALL disparam outras aplicações nativas do Android. O mesmo pode ser
+        * feito ao configurar uma ação e categoria personalizada para que outra aplicação ou
+        * activity da mesma aplicação responda a essa mensagem.
+        *
+        */
+
+        <activity
+            android:name="._05IntentFilter.IntentFilterTela1"
+            android:label="IntentFilterTela1">
+            <intent-filter>
+                <action android:name="ACAO_TESTE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="._05IntentFilter.IntentFilterTela2"
+            android:label="IntentFilterTela2">
+            <intent-filter>
+                <action android:name="ACAO_TESTE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="CATEGORIA_TESTE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="._05IntentFilter.IntentFilterTela3"
+            android:label="IntentFilterTela3">
+            <intent-filter>
+                <action android:name="ABRIR_TELA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="CATEGORIA_3" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="._05IntentFilter.IntentFilterTela4"
+            android:label="IntentFilterTela4">
+            <intent-filter>
+                <action android:name="ABRIR_TELA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="CATEGORIA_DUPLICADA" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="._05IntentFilter.IntentFilterTela5"
+            android:label="IntentFilterTela5">
+            <intent-filter>
+                <action android:name="ABRIR_TELA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="CATEGORIA_DUPLICADA" />
+            </intent-filter>
+        </activity>
+
+        // _06BroadcastReceiver --------------------------------------------------------------------
+
+        <activity android:name="._06BroadcastReceiver.MenuBroadcastReceiver" />
+        <activity android:name="._06BroadcastReceiver.BroadcastReceiverActivity" />
+
+        <receiver
+            android:name="._06BroadcastReceiver.BroadcastReceiver1"
+            android:label="BroadcastReceiver1">
+
+            <intent-filter>
+                <action android:name="ABRIR_RECEIVER_1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        // Configuração Dinâmica via JavaApi: IntentFilter com ação e categoria
+        <receiver
+            android:name="._06BroadcastReceiver.BroadcastReceiver2"
+            android:label="BroadcastReceiver2">
+        </receiver>
+
+        <receiver
+            android:name="._06BroadcastReceiver.BroadcastReceiverANR"
+            android:label="BroadcastReceiverANR">
+            <intent-filter>
+                <action android:name="TESTE_ANR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="._06BroadcastReceiver.BroadcastReceiver3"
+            android:label="BroadcastReceiver3">
+
+            <intent-filter>
+                <action android:name="ABRIR_ACTIVITY_TESTE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="._06BroadcastReceiver.BroadcastReceiverBoot"
+            android:label="BroadcastReceiverBoot">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        // _07NOTIFICATION --------------------------------------------------------------------
+        <activity android:name="._07Notification.MenuNotification" />
+        <activity android:name="._07Notification.NotificationBasicExample" />
+        <activity
+            android:name="._07Notification.NotificationStartNotification">
+            <intent-filter>
+                <action android:name="NotificationStart" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+</manifest>
