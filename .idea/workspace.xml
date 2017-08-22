@@ -13,7 +13,24 @@
     <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/_04Intent/Intent_StartActivityForResult.java" line="106" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="839444eb-4904-454a-8744-a543e33846a6" name="Default" comment="" />
+    <list default="true" id="839444eb-4904-454a-8744-a543e33846a6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidEngineering.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/MenuGeral.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/MenuGeral.java" />
+    </list>
     <ignored path="IntentFull.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,11 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuNotification.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MenuNotification.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/_07Notification/MenuNotification.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="698">
               <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuGeral.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/MenuGeral.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -138,7 +165,7 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="AndroidEngineering" />
+              <option name="name" value="AndroidEngineeringGit" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -149,7 +176,7 @@
                 <option name="path" value="$PROJECT_DIR$/app" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="AndroidEngineering" />
+                <option name="name" value="AndroidEngineeringGit" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -163,7 +190,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'AndroidEngineering'." />
+                <option name="description" value="Displays the sub-projects of root project 'AndroidEngineeringGit'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -197,7 +224,7 @@
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'AndroidEngineering'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'AndroidEngineeringGit'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -207,7 +234,7 @@
                 <option name="name" value="mockableAndroidJar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'AndroidEngineering' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'AndroidEngineeringGit' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -240,7 +267,7 @@
                 <option name="name" value="deviceCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'AndroidEngineering'." />
+                <option name="description" value="Displays all dependencies declared in root project 'AndroidEngineeringGit'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -304,7 +331,7 @@
                 <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'AndroidEngineering'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'AndroidEngineeringGit'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -419,7 +446,7 @@
                 <option name="name" value="uninstallDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'AndroidEngineering'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'AndroidEngineeringGit'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -719,7 +746,7 @@
                 <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2511Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'AndroidEngineering'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'AndroidEngineeringGit'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -841,7 +868,7 @@
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'AndroidEngineering'." />
+                <option name="description" value="Displays the properties of root project 'AndroidEngineeringGit'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -1536,6 +1563,7 @@
         <entry key="C:\000 Geral Codes And Instalation\AndroidCode\04 Intent\IntentFULL" value="4470125499765" />
         <entry key="C:\000 Geral Codes And Instalation\AndroidCode\Android Engineering Study\Intent\IntentFULL" value="4470125499765" />
         <entry key="C:\000 Geral Codes And Instalation\AndroidCode\AndroidStudioProjects\AndroidEngineering" value="4474875442618" />
+        <entry key="C:\000 Geral Codes And Instalation\AndroidCode\AndroidStudioProjects\AndroidEngineeringGit" value="4474875442618" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1924,7 +1952,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/_06BroadcastReceiver/BroadcastReceiverANR.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/_06BroadcastReceiver/BroadcastReceiverBoot.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/_06BroadcastReceiver/BroadcastReceiver3.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/MenuGeral.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/_07Notification/NotificationBasicExemple.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/notification_main.xml" />
@@ -1936,6 +1963,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/_07Notification/NotificationBasicExample.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/_00Annotations/Basics Annotations" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/_07Notification/MenuNotification.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/MenuGeral.java" />
       </list>
     </option>
   </component>
@@ -1996,9 +2024,6 @@
       <pane id="PackagesPane">
         <subPane />
       </pane>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-      </pane>
       <pane id="ProjectPane">
         <subPane />
       </pane>
@@ -2006,11 +2031,56 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidEngineering" />
+              <option name="myItemId" value="AndroidEngineeringGit" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidEngineeringGit" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidEngineeringGit" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidEngineeringGit" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidEngineering" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
       </pane>
     </panes>
   </component>
@@ -2514,7 +2584,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2391" y="-9" width="2018" height="1093" extended-state="7" />
+    <frame x="2391" y="-9" width="2018" height="1093" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2811,13 +2881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/MenuGeral.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="57" column="64" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -2955,6 +3018,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="698">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/gustavocrepaldi/AndroidEngineering/MenuGeral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding />
         </state>
       </provider>
